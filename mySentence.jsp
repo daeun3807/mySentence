@@ -105,8 +105,6 @@
 							<td></td>
 							<td></td>												
 						</tr>
-						<tr>
-						</tr>
 					</tbody>
 				</table>
 			</div>
