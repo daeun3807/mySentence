@@ -27,19 +27,17 @@
 			
 
 			//콤보 세팅
-				//콤보객체(select)의 하위 객채(option) 제거
-//				$('#divSelect').empty();
+			//콤보객체(select)의 하위 객채(option) 제거
+//			$('#divSelect').empty();
 
-				//콤보객채(select)의 하위 객채(option)를 갯수대로 생성			
-				for(var i = 0; i < retData.length; i++) {                
+			//콤보객채(select)의 하위 객채(option)를 갯수대로 생성			
+			for(var i = 0; i < retData.length; i++) {                
 		            var option = $("<option>" + retData[i] + "</option>");
 		            $('#divSelect').append(option);
-		        }
-				
+		        }		
 
-			}
-		
-			init();
+		}
+		init();
 
 
 		/*************
@@ -143,7 +141,7 @@
 			var delResult = confirm('선택한 항목을 삭제하시겠습니까?');
 			
 			if(delResult) {
-				if($('#checkId').is(":checked") == true) {
+				if($('.checkClass').is(":checked") == true) {
 	
 					/** 원본 **/
 		            $cbwrap.each( chkList, function(idx, data){ //idx...?
